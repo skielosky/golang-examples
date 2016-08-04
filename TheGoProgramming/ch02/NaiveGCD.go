@@ -9,7 +9,7 @@ func main() {
 	var b = 10
 	best := 0
 	for d := 1; d <= a+b; d++ {
-		if d/a == d/b {
+		if ((d % a) == 0) && ((d % b) == 0) {
 			best = d
 		}
 	}
