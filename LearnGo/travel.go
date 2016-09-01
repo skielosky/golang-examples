@@ -11,5 +11,5 @@ func main() {
 	fmt.Println(distance/lightSpeed, "seconds")
 
 	distance = 401000000
-	fmt.Println(distance/lightSpeed, "seconds")
+	fmt.Println(distance/lightSpeed, "seconds ")
 }
